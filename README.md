@@ -36,5 +36,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # link to running website https://react-git-main-jge162.vercel.app/
 
-<img src="https://drive.google.com/drive/u/0/search?q=screenshot%202023">
 
