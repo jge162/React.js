@@ -1,13 +1,16 @@
 {
+  "homepage": "Https://jge162.github.io/react",
   "name": "rectify",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "next dev",
     "start": "next start",
     "lint": "next lint"
-  },
+    },
   "dependencies": {
     "firebase": "^9.10.0",
     "moment": "^2.29.4",
@@ -21,6 +24,7 @@
     "autoprefixer": "^10.4.13",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8"
   }
