@@ -40,7 +40,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # screen shots below
 
-<img width="1440" alt="Screen Shot 2023-01-17 at 11 48 55 PM" src="https://user-images.githubusercontent.com/31228460/213114189-0d9166ed-26d8-4e99-842b-8d955d67799b.png">
+<img width="1272" alt="Screen Shot 2023-01-17 at 11 57 55 PM" src="https://user-images.githubusercontent.com/31228460/213115624-9687ad0a-f79f-4351-b265-49bbdf1d767f.png">
+<img width="1192" alt="Screen Shot 2023-01-17 at 11 58 06 PM" src="https://user-images.githubusercontent.com/31228460/213115637-4bf68b15-9cfa-485f-ad37-ef5fe35022ad.png">
+
 
 
 
