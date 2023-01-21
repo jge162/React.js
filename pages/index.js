@@ -51,7 +51,7 @@ export default function Home() {
               B.S. Computer Engineering
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-                With an emphasis on Embedded Software Engineering and Software Engineering, I work in a variety of 
+                With an emphasis on Embedded Software Engineering. I have worked in a variety of IDE
                 environments including Code Composer Studio, Xilinx Vivado, Linux, and many other applications. 
                 I have experience creating projects from start to finish, encompassing the full life cycle. 
                 Please see my portfolio below. Thank you.
