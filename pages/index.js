@@ -51,8 +51,10 @@ export default function Home() {
               Computer Engineer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            Spring 2023 is my last semester at CSUF, focusing on the 
-            second part of my senior design project in Computer Engineering.
+                With an emphasis on Embedded Software Engineering and Software Engineering, I work in a variety of 
+                environments including Code Composer Studio, Xilinx Vivado, Linux, and many other applications. 
+                I have experience creating projects from start to finish, encompassing the full life cycle. 
+                Please see my portfolio below. 
              </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <a href="https://twitter.com/jermyiah_" target="_blank" rel="noopener noreferrer">
