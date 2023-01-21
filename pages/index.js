@@ -48,13 +48,13 @@ export default function Home() {
               Jeremy Escobar.
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              B.S. Computer Engineering, class of 23'
+              B.S. Computer Engineer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-               With an emphasis on Embedded Software Engineering and Software Engineering, I work in a variety of 
+                With an emphasis on Embedded Software Engineering and Software Engineering, I work in a variety of 
                 environments including Code Composer Studio, Xilinx Vivado, Linux, and many other applications. 
                 I have experience creating projects from start to finish, encompassing the full life cycle. 
-                Please see my portfolio below. 
+                Please see my portfolio below. Thank you.
              </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <a href="https://twitter.com/jermyiah_" target="_blank" rel="noopener noreferrer">
