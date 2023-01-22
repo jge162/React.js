@@ -1,4 +1,7 @@
 ```The programs in this folder are ones I am developing as part of my current educational experiences.```
+![Total Files](https://img.shields.io/github/directory-file-count/jge162/React.js?color=4078c0&style=for-the-badge)
+![File Size](https://img.shields.io/github/repo-size/jge162/React.js?color=4078c0&style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/jge162/React.js?color=4078c0&style=for-the-badge)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
