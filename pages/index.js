@@ -60,7 +60,7 @@ export default function Home() {
             <a href="https://twitter.com/jermyiah_" target="_blank" rel="noopener noreferrer">
               <AiFillTwitterCircle />
             </a>
-              <a href="https://linkedin.com/in/jeremyescobar" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               <AiFillLinkedin />
             </a>
               <a href="https://github.com/jge162" target="_blank" rel="noopener noreferrer">
