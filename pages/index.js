@@ -51,10 +51,10 @@ export default function Home() {
               B.S. Computer Engineering
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-                With an emphasis on Embedded Software Engineering. I have worked in a variety of IDE
-                environments including Code Composer Studio, Xilinx Vivado, Linux, and many other applications. 
-                I have experience creating projects from start to finish, encompassing the full life cycle. 
-                Please see my portfolio below. Thank you.
+                "Specializing in Embedded Software Engineering, I have extensive experience working in 
+                diverse environments such as Code Composer Studio, Xilinx Vivado, Linux and more. My 
+                expertise includes the complete project life cycle, from conceptualization to 
+                delivery. My portfolio showcases my capabilities. Thank you."
              </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <a href="https://twitter.com/jermyiah_" target="_blank" rel="noopener noreferrer">
