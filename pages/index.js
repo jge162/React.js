@@ -17,9 +17,25 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+const icons = document.querySelectorAll('.text-5xl a');
+
+window.addEventListener('scroll', () => {
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  icons.forEach((icon, index) => {
+    if (scrollTop > 50 * index) {
+      icon.style.opacity = 1;
+      icon.style.transform = 'translateX(0)';
+    } else {
+      icon.style.opacity = 0;
+      icon.style.transform = 'translateX(-50%)';
+    }
+  });
+});
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  //const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -31,30 +47,27 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">designed by jermyiah</h1>
+            <h1 className="font-burtons text-xl"> </h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill
-                  onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl"
-                />
+           
               </li>
               <li>
               </li>
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-              Jeremy Escobar.
+            <h2 className="text-5xl py-2 text-blue-600 font-medium dark:text-blue-400 md:text-6xl">
+              Jeremy Escobar
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              B.S. Computer Engineering
+              Computer Engineer;
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-                With an emphasis on Embedded Software Engineering, I have worked in a variety of 
-                environments including Code Composer Studio, Xilinx Vivado, Linux, and many other applications. 
-                I have experience creating projects from start to finish, encompassing the full life cycle. 
-                Please see my portfolio below. Thank you.
+            "Specializing in Embedded Software Engineering, I have extensive experience working in diverse 
+            environments such as Code Composer Studio, Xilinx Vivado, Linux and more. My expertise includes the 
+            complete project life cycle, from conceptualization to delivery. My portfolio showcases my capabilities. 
+            Thank you."
              </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <a href="https://twitter.com/jermyiah_" target="_blank" rel="noopener noreferrer">
@@ -67,13 +80,16 @@ export default function Home() {
               <AiFillGithub />
             </a>
             </div>
+            
           </div>
         </section>
         <section className="py-10">
           <div>
+          <img src="https://www.springboard.com/blog/wp-content/uploads/2019/07/sb-blog-programming.png" alt="3D Animation Banner" />
+
           <h3 className="text-3xl py-1 dark:text-white text-center">Software Experience:</h3>
 <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-center">
-  <span className="text-teal-500">- C/C++, OOP programming, Python, Verilog, React.js, Matlab, Linux, VHDL</span>
+  <span className="text-teal-500">C/C++, OOP programming, Python, Verilog, React.js, Matlab, Linux, VHDL</span>
 </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
