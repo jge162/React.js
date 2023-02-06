@@ -1,3 +1,5 @@
+
+
 import Head from "next/head";
 import {
   AiFillTwitterCircle,
@@ -17,25 +19,9 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
-const icons = document.querySelectorAll('.text-5xl a');
-
-window.addEventListener('scroll', () => {
-  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-  icons.forEach((icon, index) => {
-    if (scrollTop > 50 * index) {
-      icon.style.opacity = 1;
-      icon.style.transform = 'translateX(0)';
-    } else {
-      icon.style.opacity = 0;
-      icon.style.transform = 'translateX(-50%)';
-    }
-  });
-});
 
 export default function Home() {
-  //const [darkMode, setDarkMode] = useState(false);
-    const [darkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -47,10 +33,13 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl"> </h1>
+            <h1 className="font-burtons text-xl">designed by jermyiah</h1>
             <ul className="flex items-center">
               <li>
-             
+                <BsFillMoonStarsFill
+                  onClick={() => setDarkMode(!darkMode)}
+                  className=" cursor-pointer text-2xl"
+                />
               </li>
               <li>
               </li>
@@ -165,4 +154,5 @@ export default function Home() {
     </div>
   );
 }
+
 
