@@ -21,21 +21,6 @@ import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 const icons = document.querySelectorAll('.text-5xl a');
 
-window.addEventListener('scroll', () => {
-  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-  icons.forEach((icon, index) => {
-    if (scrollTop > 50 * index) {
-      icon.style.opacity = 1;
-      icon.style.transform = 'translateX(0)';
-    } else {
-      icon.style.opacity = 0;
-      icon.style.transform = 'translateX(-50%)';
-    }
-  });
-});
-
-
 export default function Home() {
   //const [darkMode, setDarkMode] = useState(false);
       const [darkMode] = useState(true);
