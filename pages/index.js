@@ -21,7 +21,8 @@ import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  //const [darkMode, setDarkMode] = useState(false);
+      const [darkMode] = useState(true);
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -36,10 +37,7 @@ export default function Home() {
             <h1 className="font-burtons text-xl">designed by jermyiah</h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill
-                  onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl"
-                />
+            
               </li>
               <li>
               </li>
