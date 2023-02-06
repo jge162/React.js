@@ -61,19 +61,13 @@ export default function Home() {
               Jeremy Escobar
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Computer Engineer;
-            </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            "Specializing in Embedded Software Engineering, I have extensive experience working in diverse 
-            environments such as Code Composer Studio, Xilinx Vivado, Linux and more. My expertise includes the 
-            complete project life cycle, from conceptualization to delivery. My portfolio showcases my capabilities. 
-            Thank you."
+
              </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <a href="https://twitter.com/jermyiah_" target="_blank" rel="noopener noreferrer">
               <AiFillTwitterCircle />
             </a>
-              <a href="https://linkedin.com/in/jeremyescobar" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               <AiFillLinkedin />
             </a>
               <a href="https://github.com/jge162" target="_blank" rel="noopener noreferrer">

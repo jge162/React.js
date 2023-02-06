@@ -1,3 +1,12 @@
+```The programs in this folder are ones I am developing as part of my current educational experiences.```
+
+
+
+![Total Files](https://img.shields.io/github/directory-file-count/jge162/React.js?color=4078c0&style=for-the-badge)
+![File Size](https://img.shields.io/github/repo-size/jge162/React.js?color=4078c0&style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/jge162/React.js?color=4078c0&style=for-the-badge)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/jge162/React.js?color=red&label=Closed%20Pull%20requests&logo=GitHub&style=for-the-badge)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -32,3 +41,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+# link to running website https://next-js-git-main-jge162.vercel.app/
+
+# screen shots below
+
+<img width="1272" alt="Screen Shot 2023-01-17 at 11 57 55 PM" src="https://user-images.githubusercontent.com/31228460/213115624-9687ad0a-f79f-4351-b265-49bbdf1d767f.png">
+<img width="1192" alt="Screen Shot 2023-01-17 at 11 58 06 PM" src="https://user-images.githubusercontent.com/31228460/213115637-4bf68b15-9cfa-485f-ad37-ef5fe35022ad.png">
+
+
+
+
