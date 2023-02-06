@@ -51,10 +51,10 @@ export default function Home() {
               B.S. Computer Engineering
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-                "Specializing in Embedded Software Engineering, I have extensive experience working in 
+                Specializing in Embedded Software Engineering, I have extensive experience working in 
                 diverse environments such as Code Composer Studio, Xilinx Vivado, Linux and more. My 
                 expertise includes the complete project life cycle, from conceptualization to 
-                delivery. My portfolio showcases my capabilities. Thank you."
+                delivery. My portfolio showcases my capabilities. Thank you.
              </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <a href="https://twitter.com/jermyiah_" target="_blank" rel="noopener noreferrer">
