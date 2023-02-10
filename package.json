@@ -25,7 +25,7 @@
     "eslint": "8.33.0",
     "eslint-config-next": "12.3.1",
     "gh-pages": "^5.0.0",
-    "postcss": "^8.4.16",
+    "postcss": "^8.4.21",
     "tailwindcss": "^3.2.6"
   }
 }
